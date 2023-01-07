@@ -4,6 +4,35 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+/* Butto styel  */
+.white-button {
+    box-sizing: border-box;
+    background-color: white;
+    color: #005FAC;
+    font-size: 20px;
+    padding: 20px 25px;
+    border: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.blue-button {
+    box-sizing: border-box;
+    background-color: #005FAC;
+    color: white;
+    font-size: 20px;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
 /* Header style start from here */
 .header{
     max-width: 1600px;
@@ -28,33 +57,8 @@ margin: 30px auto;
 font-size: 16px;
 color: white;
 }
-.white-button{
-    box-sizing: border-box;
-    background-color: white;
-    color:#005FAC;
-    font-size: 20px;
-    padding: 20px 25px;
-    border:none;
-    border-radius: 5px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    -o-border-radius: 5px;
-}
-.blue-button {
-    box-sizing: border-box;
-    background-color: #005FAC;
-    color: white;
-    font-size: 20px;
-    padding: 10px 25px;
-    border: none;
-    border-radius: 5px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    -o-border-radius: 5px;
-}
-/* Header style End here */
+
+
 /* Main Section style start from here */
 main{
     max-width: 1600px;
@@ -93,7 +97,7 @@ main{
 
 
 
-/* Unorder list style and tick mark style */
+/* Unorder list style and fontawesome tick mark style */
 ul {
     padding-left:0;
     margin: 0;
@@ -167,8 +171,6 @@ ul li:before {
     margin-bottom: 20px;
     color: white;
 }
-
-
 
 
 
