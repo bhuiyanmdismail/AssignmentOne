@@ -173,12 +173,15 @@ ul li:before {
 
 
 /* Footer  style start from here */
+footer{
+
+    background-color: black;
+}
 .contact {
     max-width: 1024px;
     width: 100%;
     display: flex;
     gap: 100px;
-    background: black;
     padding: 130px 200px;
 }
 .contact-title {
