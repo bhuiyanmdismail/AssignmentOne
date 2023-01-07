@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Header style start from here */
+.header{
+    max-width: 1600px;
+    height: 800px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding-right: 230px;
+    padding-top: 215px;
+    background-image: url(../images/banner/banner3.png);
+    background-position: top left;
+    background-repeat: no-repeat;
+    text-align: right;
+}
+
+.header-title{
+    font-size: 60px;
+    font-weight: 700;
+    color: white;
+}
+.header-discription{
+margin: 30px auto;
+font-size: 16px;
+color: white;
+}
+.white-button{
+    box-sizing: border-box;
+    background-color: white;
+    color:#005FAC;
+    font-size: 20px;
+    padding: 20px 25px;
+    border:none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.blue-button {
+    box-sizing: border-box;
+    background-color: #005FAC;
+    color: white;
+    font-size: 20px;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+/* Header style End here */
+/* Main Section style start from here */
+main{
+    max-width: 1600px;
+    width: 100%;
+    margin: 100px auto;
+}
+.failures{
+    width: 1024px;
+    height: 725px;
+    margin: 0 auto;
+    display: flex;
+}
+.failures-image{
+    background-image: url(../images/person.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 720px;
+    width: 570px;
+    margin: 0;
+}
+.failures-info {
+    box-sizing: border-box;
+    padding-top: 250px;
+    margin: 0 auto;
+}
+.failures-title{
+    font-size:40px ;
+    font-weight: 700;
+}
+.failures-description{
+    margin: 30px auto;
+    font-size: 16px;
+    color: #444343;
+}
+
+
+
+/* Unorder list style and tick mark style */
+ul {
+    padding-left:0;
+    margin: 0;
+    -webkit-padding-start: 0;
+    list-style-type: none;
+}
+
+ul li {
+    vertical-align: top;
+    padding-left: 13px;
+    font-size: 16px;
+    color: #444343;
+}
+
+ul li:before {
+    content: "\f00c";
+    color: green;
+    font-family: FontAwesome;
+    width: 13px;
+    margin-left: -13px;
+    margin-right: 10px;
+}
+
+
+/* My plans style starte from here */
+.my-plans{
+    max-width: 1024px;
+    width: 100%;
+    height: 200px;
+    margin: 100px auto;
+}
+.my-plans-title{
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+}
+.plan-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 40px auto;
+
+}
+.plan{
+    text-align: center;
+}
+.plan-title{
+    font-size: 30px;
+    font-weight: 700;
+    margin: 5px auto;
+
+}
+.plan-description{
+    font-size: 16px;
+    color: #737272;
+}
+
+/* Mindset Section style start from here */
+
+.mindset{
+        width: 1024px;
+            height: 300px;
+            margin: 0 auto;
+            box-sizing: border-box;
+            padding: 50px 0 50px 65px;
+                        background-image: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%), url('../images/watch.png');
+}
+.mindset-title{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: white;
+}
+
+
+
+
+
+/* Footer  style start from here */
+.contact {
+    display: flex;
+    gap: 100px;
+    background: black;
+    padding: 130px 200px;
+}
+.contact-title {
+    font-size: 45px;
+    font-weight: 700;
+    color: white;
+}
+.contact-description{
+    color: white;
+    font-size: 16px;
+    margin: 20px auto;
+}
+
+.s-title{
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.contact input[type="text"] {
+    margin-bottom: 20px;
+    border: 1px solid white;
+    background: #ffffff00;
+    width: 100%;
+    padding: 0px 15px;
+    font-size: 16px;
+}
+
+input {
+    height: 64px;
+}
+
+.contact a {
+    text-decoration: none;
+    margin-right: 10px;
+}
